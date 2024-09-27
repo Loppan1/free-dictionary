@@ -1,0 +1,31 @@
+.search {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & input {
+        margin-top: 8px;
+        font-size: 2rem;
+        border-radius: 20px;
+        padding: 16px;
+    }
+
+    & button {
+        margin-top: 8px;
+        font-size: 1rem;
+        padding: 8px 16px 8px 16px;
+        border-radius: 10px;
+        background-color: #cdcdcd;
+    }
+}
+
+.search-results {
+    padding: 16px;
+}
+
+.search-result {
+    margin-top: 8px;
+    border: 1px solid #000;
+    padding: 8px;
+}
